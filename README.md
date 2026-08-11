@@ -18,8 +18,8 @@ Predicting whether a loan applicant is a 'good' or 'bad' credit risk, using the 
 
 ## Key Findings
 - checking_account_status was the strongest predictor of default, with the highest feature importance and SHAP values
-- credit_amount and duration_months also had strong influence, as 2nd and 3rd respectively
-- The tuned Random Forest model improved recall for 'bad' borrowers a great deal, catching more defaulters with lowering precision much
+- credit_amount and duration_months also showed strong influence in the final predictions 
+- The tuned Random Forest model improved recall for 'bad' borrowers a great deal, catching more defaulters without lowering precision much
 
 ## What I'd Improve
 - Try using XGBoost for comparisons
